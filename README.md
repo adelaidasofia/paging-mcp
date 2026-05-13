@@ -17,12 +17,21 @@ Apprise solves channels 1-2 in Python. This server makes it MCP-callable with re
 
 ## Install
 
+Open Claude Code, paste:
+
+    /plugin marketplace add adelaidasofia/paging-mcp
+    /plugin install paging-mcp@paging-mcp
+
+<details><summary>Legacy install</summary>
+
 ```bash
 git clone https://github.com/adelaidasofia/paging-mcp ~/.claude/paging-mcp
 cd ~/.claude/paging-mcp
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
+
+</details>
 
 ## Configure
 
