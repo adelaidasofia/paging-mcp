@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "paging-mcp",
+  "owner": {
+    "name": "Mycelium AI",
+    "url": "https://myceliumai.co"
+  },
+  "plugins": [
+    {
+      "name": "paging-mcp",
+      "source": "./",
+      "description": "FastMCP server that pages on-call via 100+ notification channels (Apprise wrapper: WhatsApp, ntfy, Pushover, Telegram, Discord, Slack, Twilio SMS, and more)."
+    }
+  ]
+}

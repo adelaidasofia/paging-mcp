@@ -1,0 +1,9 @@
+{
+  "name": "paging-mcp",
+  "description": "FastMCP server that pages on-call via 100+ notification channels (Apprise wrapper: WhatsApp, ntfy, Pushover, Telegram, Discord, Slack, Twilio SMS, and more).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Mycelium AI",
+    "url": "https://myceliumai.co"
+  }
+}
