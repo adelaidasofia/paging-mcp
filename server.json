@@ -16,6 +16,7 @@
       "transport": {
         "type": "stdio"
       },
+      "fileSha256": "95bb5d2ed1f64d83a069ca44ce7d0f6a53feb171afcdbb9d408124e9ac804e62",
       "environmentVariables": [
         {
           "name": "APPRISE_URLS",
