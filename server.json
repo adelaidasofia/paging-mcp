@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.adelaidasofia/paging-mcp",
+  "title": "FastMCP server that pages on-call via 100+ notification channels (Apprise wrappe",
+  "description": "FastMCP server that pages on-call via 100+ notification channels (Apprise wrapper)",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/adelaidasofia/paging-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/adelaidasofia/paging-mcp/releases/latest/download/paging-mcp.mcpb",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APPRISE_URLS",
+          "description": "Comma-separated Apprise URLs (whatsapp, ntfy, pushover, etc.)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
