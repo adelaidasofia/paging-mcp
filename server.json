@@ -11,12 +11,12 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/adelaidasofia/paging-mcp/releases/latest/download/paging-mcp.mcpb",
+      "identifier": "https://github.com/adelaidasofia/paging-mcp/releases/download/v0.1.0/paging-mcp.mcpb",
       "version": "0.1.0",
       "transport": {
         "type": "stdio"
       },
-      "fileSha256": "95bb5d2ed1f64d83a069ca44ce7d0f6a53feb171afcdbb9d408124e9ac804e62",
+      "fileSha256": "929b9b95df5da2f32d2ed1fa4a05edc1d3b2b8b7c3e11890340c1cae0840332a",
       "environmentVariables": [
         {
           "name": "APPRISE_URLS",
