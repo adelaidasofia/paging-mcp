@@ -1,5 +1,20 @@
 # paging-mcp
 
+
+<!-- mycelium-badges:start -->
+
+<p>
+  <a href="https://github.com/adelaidasofia/paging-mcp/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/adelaidasofia/paging-mcp?color=blue"></a>
+  <a href="https://github.com/adelaidasofia/paging-mcp/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/adelaidasofia/paging-mcp?color=eab308"></a>
+  <a href="https://github.com/adelaidasofia/paging-mcp/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/adelaidasofia/paging-mcp"></a>
+  <a href="https://github.com/adelaidasofia/paging-mcp/issues"><img alt="Open issues" src="https://img.shields.io/github/issues/adelaidasofia/paging-mcp"></a>
+  <a href="https://pypi.org/project/adelaidasofia-paging-mcp/"><img alt="PyPI version" src="https://img.shields.io/pypi/v/adelaidasofia-paging-mcp?color=blue&label=pypi"></a>
+  <a href="https://pypi.org/project/adelaidasofia-paging-mcp/"><img alt="PyPI downloads" src="https://img.shields.io/pypi/dm/adelaidasofia-paging-mcp?color=blue&label=downloads"></a>
+  <a href="https://myceliumai.co"><img alt="Built by Mycelium AI" src="https://img.shields.io/badge/built_by-Mycelium_AI-15B89A"></a>
+</p>
+
+<!-- mycelium-badges:end -->
+
 FastMCP server that pages on-call via 100+ notification channels. Built on top of [Apprise](https://github.com/caronc/apprise), which speaks WhatsApp, ntfy, Pushover, Telegram, Discord, Slack, Signal, Matrix, Gotify, mailto, Twilio SMS, AWS SNS, and dozens more.
 
 The point is **provider independence**. Wire one MCP, configure as many channels as you want, get redundant paging without rewriting integration code every time you swap a vendor.
