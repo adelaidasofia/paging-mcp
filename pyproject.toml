@@ -5,7 +5,7 @@ description = "FastMCP server that pages on-call via 100+ notification channels 
 requires-python = ">=3.10"
 dependencies = [
     "fastmcp>=3.0,<5.0",
-    "apprise>=1.9,<2.0",
+    "apprise>=1.9,<3.0",
 ]
 license = "MIT"
 
